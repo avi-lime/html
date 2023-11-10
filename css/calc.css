@@ -12,6 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100%;
+    font-family:'Courier New', Courier, monospace;
 }
 
 .calc {
@@ -19,15 +20,17 @@ body {
     width: fit-content;
     padding: 5px;
     border-radius: 10px;
+    background-color: black;
 }
 
 .screen {
     width: 215px;
     margin-bottom: 5px;
-    height: 100px;
+    height: 150px;
     border: 1px solid black;
     border-radius: 10px;
     position: relative;
+    background-color: orange;
 }
 
 .screen #history {
@@ -61,4 +64,6 @@ body {
     align-items: center;
     border-radius: 10px;
     cursor: pointer;
+    background-color: grey;
+    font-size:large;
 }

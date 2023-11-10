@@ -1,0 +1,25 @@
+{
+    "students": [
+        {
+            "name": "Avinash Singh",
+            "age": 21,
+            "class": "MCA 1-B",
+            "roll_no": 14,
+            "subjects": [
+                {"mathematics": 85},
+                {"english": 70}
+            ]
+        },
+        {
+            "name": "Adarsh Dubey",
+            "age": 21,
+            "class": "MCA 1-B",
+            "roll_no": 5,
+            "subjects": [
+                {"mathematics": 80},
+                {"english": 80}
+            ]
+        }
+        
+    ]
+}

@@ -15,7 +15,7 @@
     <div class="keypad">
         <div class="row">
             <button class="keys" onclick="clearEntry()">CE</button>
-            <button class="keys" onclick="clear()">C</button>
+            <button class="keys" onclick="clearDisplay()">C</button>
             <button class="keys" onclick="backspace()"><</button>
             <button class="keys" onclick="displayValue('/')">/</button>
         </div>
@@ -38,10 +38,10 @@
             <button class="keys" onclick="displayValue('+')">+</button>
         </div>
         <div class="row">
-            <button class="keys" onclick="displayValue('-')">+/-</button>
+            <button class="keys" onclick="displayValue('+/-')">+/-</button>
             <button class="keys" onclick="displayValue('0')">0</button>
             <button class="keys" onclick="displayValue('.')">.</button>
-            <button class="keys" onclick="evaluate()">=</button>
+            <button class="keys" onclick="calculate()">=</button>
         </div>
     </div>
 </div>
