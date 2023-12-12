@@ -1,12 +1,14 @@
 const studentDiv = document.getElementById("students")
-
+console.log(studentDiv);
 
 fetch("../json/sample.json")
     .then((response) => response.json())
     .then((students) => {
-        students = JSON.stringify(students)
+        students = students.students
         console.log(students)
-        for (const student in students) {
-            studentDiv.innerHTML = student["name"] + "\n"; 
-        }
+        students.forEach(student => {
+            studentDiv.innerText += `${student.name}`
+        })
     })
+
+    

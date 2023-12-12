@@ -6,8 +6,12 @@
             "class": "MCA 1-B",
             "roll_no": 14,
             "subjects": [
-                {"mathematics": 85},
-                {"english": 70}
+                {
+                    "mathematics": 85
+                },
+                {
+                    "english": 70
+                }
             ]
         },
         {
@@ -16,10 +20,13 @@
             "class": "MCA 1-B",
             "roll_no": 5,
             "subjects": [
-                {"mathematics": 80},
-                {"english": 80}
+                {
+                    "mathematics": 80
+                },
+                {
+                    "english": 80
+                }
             ]
         }
-        
     ]
 }
