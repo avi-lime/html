@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Try Catch</title>
+</head>
+
+<body>
+    <h1>JavaScript Error Handling</h1>
+    <p id="demo"></p>
+    <p id="math"></p>
+    <script>
+        try {
+            adddert("Welcome guest!");
+        } catch (err) {
+            document.getElementById("demo").innerHTML = err.message;
+        } finally {
+            alert("Welcome guest")
+        }
+
+        try {
+            let result = 10 / 0;
+            document.getElementById("math").innerHTML = result;
+        } catch (error) {
+            document.getElementById("math").innerHTML = error.message;
+        } finally {
+            alert("done")
+        }
+    </script>
+</body>
+
+</html>

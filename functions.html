@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions</title>
+</head>
+
+<body>
+    <input type="submit" onclick="performArithmetics()">
+    <p id="add"></p><br>
+    <p id="sub"></p><br>
+    <p id="mul"></p><br>
+    <p id="div"></p><br>
+    <script>
+        function performArithmetics() {
+            let x = parseInt(prompt("Enter the first number: "));
+            let y = parseInt(prompt("Enter the second number: "));
+            add(x, y);
+            sub(x, y);
+            mul(x, y);
+            div(x, y);
+        }
+        let add = (x, y) => display(x + y, "add");
+        let sub = (x, y) => display(x - y, "sub");
+        let mul = (x, y) => display(x * y, "mul");
+        let div = (x, y) => display(x / y, "div");
+
+        function display(res, id) {
+            document.getElementById(id).innerHTML = res;
+        }
+    </script>
+</body>
+
+</html>
